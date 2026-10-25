@@ -8,7 +8,6 @@ jobs:
       - name: Unzip project
         run: |
           unzip -o RJ-Studio-Project.zip -d project
-          ls -R project | head -n 100
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
